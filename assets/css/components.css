@@ -6,6 +6,14 @@ button{
     border-radius: 20px;
 }
 
+.button{
+    color: var(--primary-color);
+    background-color: var(--bg-color);
+    border-color: var(--secondary-color);
+    padding: 10px;
+    border-radius: 20px;
+}
+
 .button-carousel{
     color: var(--bg-color);
     background-color: var(--bg-color);
