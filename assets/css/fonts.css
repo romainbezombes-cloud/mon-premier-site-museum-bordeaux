@@ -41,3 +41,8 @@ body{
     line-height: 160%;
 }
 
+@media (max-width: 800px) {
+    h1 {
+        font-size: 40px;
+    }
+}

@@ -199,12 +199,6 @@ img{
     .footer{
         flex-direction: column;
     }
-}
-
-@media (max-width: 500px) {
-    h1 {
-        font-size: 48px;
-    }
 
     .header-nav ul {
         flex-direction: column;
