@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Museum de Bordeaux</title>
+        <link href="/assets/css/reset.css" rel="stylesheet">
+        <link href="/assets/css/variables.css" rel="stylesheet">
+        <link href="/assets/css/system.css" rel="stylesheet">
+        <link href="/assets/css/style.css" rel="stylesheet">
+        <link href="/assets/css/fonts.css" rel="stylesheet">
+        <link href="/assets/css/components.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="header-logo">
+            <a href="index.html"><img src="/assets/images/logo-header.svg" alt="Museum Bordeaux" class="logo-img"></a>
+            
+        </div>
+        <button class="hamburger" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <nav class="header-nav" id="menu">
+            <ul>
+                <li>
+                    <a href="index.html">Accueil</a>
+                </li>
+                <li>
+                    <a href="expo.html">Exposition</a>
+                </li>
+                <li>
+                    <a href="#actualites">Actualités</a>
+                </li>
+                <li>
+                    <a href="#visiter">Visiter</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section id="accueil" class="bienvenue">
+        <img src="/assets/images/image-accueil.png" alt="Museum Bordeaux" class="bienvenue-image">
+        <h1>Bienvenue au Museum Bordeaux</h1>
+        <h3>Science et nature</h3>
+    </section>
+
+                        <!-- caroussel à retravailler -->
+    
+    <section class="block-presentation main container">
+        <h2>En ce moment</h2>
+        <div class="carousel">
+            <button class="carousel-bouton carousel-bouton-gauche" onclick="prevSlide()">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="15 18 9 12 15 6"></polyline>
+                </svg>
+            </button>
+        </div>
+
+            <div class="carousel-container">
+            <div class="carousel-slide active">
+                <a href="#" class="carousel-link">
+                    <img src="/assets/images/expo1.png" alt="Exposition 1" class="carousel-image">
+                </a>
+            <h3>Orang-Outan</h3>
+            <h2>L'homme de la forêt</h2>
+            <button class="info-bouton">En savoir plus...</button>
+                </div>
+    </section>
+    
+
+                        <!-- qui sommes nous, images et descriptions -->
+
+    <section class="block-presentation main container">
+        <h2>Qui sommes-nous ?</h2>
+        <br>
+
+        <div class="about-item">
+            <img src="/assets/images/image 10.png" alt="Le Muséum de Bordeaux" class="about-image">
+            <h2>Le Muséum de Bordeaux sciences et nature</h2>
+            <p>C'est ici, au cœur de Bordeaux, que vous attend une aventure inoubliable à travers le monde sauvage et les mystères de la nature. Notre Muséum est une véritable fenêtre ouverte sur la biodiversité qui nous entoure, et celle qui a marqué l'histoire de la Terre.</p>
+        </div>
+
+        <div class="about-item">
+            <img src="/assets/images/image 9.png" alt="Une longue histoire" class="about-image">
+            <br>
+            <h2>Une longue histoire, un nouveau souffle</h2>
+            <p>Tout a commencé au XVIIIe siècles, lorsque des passionnés ont rassemblé les premiers trésors de la nature pour les faire découvrir au public.Aujourd'hui, installé dans le magnifique Hôtel de Lalabeforme, le Muséum a fait peau neuve. Le mariage entre les vieilles pierres et les scénographies modernes rendent un lieu vivant qui permet de mieux comprendre la richesse du monde, pour les petits comme pour les grands.</p>
+        </div>
+
+        <div class="about-item">
+            <img src="/assets/images/image 13.png" alt="Display of museum collections featuring diverse natural specimens including animals and fossils arranged in exhibition cases, showcasing the variety of discoveries visitors will encounter at the museum" class="about-image">
+            <br>
+            <h2>Qu'allez-vous découvrir ?</h2>
+            <ul class="about-list">
+                <li>
+                    Des rencontres spectaculaires : Face-à-face avec plus d'un million de spécimens, du majestueux éléphant au nous accueille, squelette impressionnant qui raconte des époques lointaines.
+                </li>
+                <li>
+                    Un lieu pour grandir : Notre Musée des tout-petits est un terrain de jeu et d'éveil unique, pensé pour initier les enfants de moins de 6 ans aux secrets de la nature.
+                </li>
+                <li>
+                    Des Histoires à partager : À travers nos collections permanentes et nos expositions temporaires renouvelées, nous vous invitons à réfléchir ensemble aux grands enjeux écologiques d'aujourd'hui.
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="block-presentation main container">
+        <h2>Expositions à la une</h2>
+        <br>
+        <div class="expositions-content">
+            <img src="/assets/images/image 21.png" alt="Expositions à la une" class="expositions-image">
+            <div class="expositions-text">
+                <p>-Des rencontres spectaculaires : Face-à-face avec plus d'un million de spécimens, du majestueux éléphant qui nous accueille au squelette impressionnant qui raconte des époques lointaines.</p>
+                <p>-Un lieu pour grandir : Notre Musée des tout-petits est un terrain de jeu et d'éveil unique, pensé pour initier les enfants de moins de 6 ans aux secrets de la nature.</p>
+                <p>-Des Histoires à partager : À travers nos collections permanentes et nos expositions temporaires renouvelées, nous vous invitons à réfléchir ensemble aux grands enjeux écologiques d'aujourd'hui.</p>
+            </div>
+            <a href="expo.html"><button class="info-bouton">Voir les expositions</button></a>
+        </div>
+    </section>
+
+                    <!-- footer -->
+
+    <footer class="footer">
+        <div class="footer-left">
+            <p>
+                <strong>Adresse :</strong> 5 place Bardineau - 33000 Bordeaux
+            </p>
+            <p>
+                <strong>Contact :</strong> 05 24 57 65 30 | 
+                <a href="#instagram" class="social-icon"><img src="/assets/images/ig.png" alt="Instagram"></a>
+                <a href="#facebook" class="social-icon"><img src="/assets/images/fb.png" alt="Facebook"></a>
+                <a href="#youtube" class="social-icon"><img src="/assets/images/yt.png" alt="YouTube"></a>
+            </p>
+            <p>
+                <strong>Horaires :</strong> Ouvert 10h30 - 17h30
+            </p>
+            <p>
+                Fermé lundi et jours fériés
+            </p>
+        </div>
+
+        <div class="footer-center">
+            <img src="/assets/images/logo-header.svg" alt="Museum Logo" class="footer-logo">
+            <img src="/assets/images/logo-bordeaux.png" alt="Ville de Bordeaux" class="footer-logo">
+        </div>
+
+        <div class="footer-right">
+            <a href="#plan-du-site">Plan du site</a>
+            <a href="#mentions-legales">Mentions légales et crédits</a>
+            <a href="#protection-donnees">Protection des données personnelles</a>
+            <a href="#cgu">CGU</a>
+            <a href="#offres-emploi">Offres d'emploi</a>
+            <a href="#presse">Presse</a>
+        </div>
+    </footer>
+
+</body>
+</html>
+
+
+</body>
+</html>
+
+<!-- à faire !!! adapter les alt, refaire le caroussel, refaire menu burger  -->

@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "Faune";
+    src:
+     local("Faune"),
+     url("/assets/fonts/faune/Faune-TextRegular.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Baskervville-regular";
+    src:
+     local("Baskervville-regular"),
+     url("/assets/fonts/Baskervville/Baskervville-Regular.woff") format("woff"),
+     url("/assets/fonts/Baskervville/Baskervville-Regular.woff2") format("woff2");
+}
+
+h1{
+    color: var(--primary-color);
+    font-size: 64px;
+    font-family: "Faune", sans-serif;
+    line-height: 160%;
+}
+
+h2{
+    color: var(--primary-color);
+    font-size: 36px;
+    font-family: "Faune", sans-serif; 
+    line-height: 160%;
+}
+
+h3{
+    color: var(--third-color);
+    font-size: 36px;
+    font-family: "Faune", sans-serif;
+    line-height: 160%;
+}
+
+body{
+    color: var(--primary-color);
+    font-size: 18px;
+    font-family: "Baskervville-regular", sans-serif;
+    line-height: 160%;
+}
+
