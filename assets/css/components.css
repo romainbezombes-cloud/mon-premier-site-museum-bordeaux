@@ -6,6 +6,15 @@ button{
     border-radius: 20px;
 }
 
+.button-carousel{
+    color: var(--bg-color);
+    background-color: var(--bg-color);
+    border-color: var(--bg-color);
+    padding: 0%;
+    border-radius: 0%;
+
+}
+
 @media (max-width: 600px) {
 button {
         padding: 8px 20px;
