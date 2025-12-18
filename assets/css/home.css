@@ -14,3 +14,16 @@
 .presentation-box p {
     padding-right: 200px;
 }
+
+@media (max-width: 600px) {
+
+        .presentation-box {
+        margin-bottom: 100px;
+        
+    }
+
+    .presentation-box p {
+        padding-right: 0px;
+        margin-bottom: 30px;
+    }
+}
