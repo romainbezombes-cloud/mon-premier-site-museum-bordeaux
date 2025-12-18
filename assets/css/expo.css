@@ -1,0 +1,17 @@
+.presentation-box {
+    margin-bottom: 100px;
+}
+
+.presentation-box img {
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+.presentation-box .h2 {
+    margin-bottom: 10px;
+}
+
+.presentation-box p {
+    padding-right: 200px;
+    margin-bottom: 30px;
+}
