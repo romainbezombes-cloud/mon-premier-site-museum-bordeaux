@@ -55,6 +55,9 @@
     align-items: center;
 }
 
+.select-menu{
+    display: none;
+}
 
 footer {
     background-color: var(--primary-color);
@@ -217,5 +220,11 @@ img{
         flex-direction: column;
     }
 
+    .select-menu{
+        display: block;
+        position: fixed;
+        top: 10;
+        right: 0;
+    }
 }
 
